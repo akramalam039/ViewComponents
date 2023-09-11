@@ -9,3 +9,12 @@
 <div>
     @await Component.InvokeAsync("Count");/* Calling ViewComponent CountViewComponent (ViewComponent suffix) */
 </div>
+
+
+<div>
+    @await Component.InvokeAsync("CountByName",new{Dept="HR"});
+</div>
+
+<div>
+    @await Component.InvokeAsync("SocialLinks");
+</div>
